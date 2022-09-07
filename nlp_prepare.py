@@ -5,7 +5,7 @@ from nltk.tokenize.toktok import ToktokTokenizer
 from nltk.corpus import stopwords
 import pandas as pd
 
-import acquire
+import nlp_acquire
 
 def make_lower(content_list):
     cleaned_content = []
